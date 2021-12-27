@@ -1,0 +1,65 @@
+/* 导航栏 */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+.navbar {
+	width: 100%;
+	float: left;
+	background-color: #444444;
+}
+
+/* 导航栏logo */
+.navbar-logo {
+	margin: 8px 0px 10px 20px;
+	text-decoration: none;
+}
+
+.logo {
+	font-style: italic;
+	font-size: 24px;
+	line-height: 50px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dre {
+	color: #e8676b;
+}
+
+.space {
+	color: #9a9da2;
+}
+
+/* 导航链接 */
+.navbar-menu {
+	float: right;
+}
+
+.navbar-menu>ul {
+	overflow: hidden;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0px;
+}
+
+.navbar-menu>ul>li {
+	float: left;
+	width: 90px;
+	text-align: center;
+	list-style: none;
+	line-height: 50px;
+}
+
+.navbar-menu>ul>li:hover:not(.login) {
+	background-color: #e04800;
+}
+
+.login:hover {
+	background-color: #4caf50;
+}
+
+.navbar-menu>ul>li>a {
+	color: #FFFFFF;
+	display: block;
+	text-align: center;
+}

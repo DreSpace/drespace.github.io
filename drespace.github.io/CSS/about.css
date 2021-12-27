@@ -1,0 +1,48 @@
+body {
+	font: 14px Arial, sans-serif;
+	margin: 0px;
+	background-color: #f5f5f5;
+}
+
+.container {
+	width: 90%;
+	margin: 0px auto;
+	background: #f2f2f2;
+}
+
+section {
+	float: left;
+	padding: 20px;
+	min-height: 170px;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.introduction {
+	width: 300px;
+	background-color: #55ffff;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+.C {
+	position: absolute;
+	top: 100px;
+	left: 500px;
+}
+
+.Python {
+	position: absolute;
+	top: 300px;
+	left: 150px;
+}
+
+.Java {
+	position: absolute;
+	top: 600px;
+	left: 500px;
+}
+
+.introduction p {
+	text-indent: 2em;
+}
